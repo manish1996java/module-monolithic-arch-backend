@@ -2,38 +2,38 @@
   "compilerOptions": {
 
     "baseUrl": "./src",
-    "paths": {
-      "@config/*":["config/*"],
-      "@constants/*": ["constants/*"],
-      "@controllers/*": ["controllers/*"],
-      "@middleware/*": ["middleware/*"],
-      "@routing/*": ["routing/*"],
-      "@server/*": ["server/*"],
-      "@utils/*": ["utils/*"]
-    },
+    // "paths": {
+    //   "@config/*":["config/*"],
+    //   "@constants/*": ["constants/*"],
+    //   "@controllers/*": ["controllers/*"],
+    //   "@middleware/*": ["middleware/*"],
+    //   "@routing/*": ["routing/*"],
+    //   "@server/*": ["server/*"],
+    //   "@utils/*": ["utils/*"]
+    // },
 
     // paths for module monolithic architecture
-    // "paths": {
-    //   // Core
-    //   "@core/config/*": ["core/config/*"],
-    //   "@core/database/*": ["core/database/*"],
-    //   "@core/middleware/*": ["core/middleware/*"],
-    //   "@core/server/*": ["core/server/*"],
+    "paths": {
+      // Core
+      "@core/config/*": ["core/config/*"],
+      "@core/database/*": ["core/database/*"],
+      "@core/middleware/*": ["core/middleware/*"],
+      "@core/server/*": ["core/server/*"],
 
-    //   // API helpers
-    //   "@api/*": ["api/*"],
+      // API helpers
+      "@api/*": ["api/*"],
 
-    //   // Shared resources
-    //   "@shared/*": ["shared/*"],
-    //   "@shared/utils/*": ["shared/utils/*"],
-    //   "@shared/helpers/*": ["shared/helpers/*"],
+      // Shared resources
+      "@shared/*": ["shared/*"],
+      "@shared/utils/*": ["shared/utils/*"],
+      "@shared/helpers/*": ["shared/helpers/*"],
 
-    //   // Modules (feature-based)
-    //   "@modules/*": ["modules/*"],
+      // Modules (feature-based)
+      "@modules/*": ["modules/*"],
 
-    //   // Example for specific module
-    //   "@user/*": ["modules/user/*"]
-    // }
+      // Example for specific module
+      "@user/*": ["modules/user/*"]
+    },
 
 
     /* Visit https://aka.ms/tsconfig to read more about this file */
