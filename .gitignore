@@ -51,7 +51,7 @@ temp/
 # Database Files (if using SQLite)
 # ===============================
 *.sqlite
-*.sqlite3
+*.sqlite3 
 *.db
 
 # ===============================
