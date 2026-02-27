@@ -1,4 +1,4 @@
-import { addBlog } from "@controllers/blog.controller";
+import { addBlog } from "@modules/blog/controllers/blog.controller";
 import { Router } from "express";
 
 const router = Router();

@@ -1,4 +1,5 @@
-import { login } from '@controllers/user.controller';
+
+import { login } from '@modules/user/controllers/user.controller';
 import express,{Router} from 'express';
 
 

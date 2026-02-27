@@ -1,5 +1,6 @@
 import { Request, RequestHandler, Response } from "express";
-import Blog from "models/blog.model";
+import blogModel from "../models/blog.model";
+
 
 export const addBlog:RequestHandler = async (req,res) => { 
     let {title,description} = req.body;
@@ -7,7 +8,7 @@ export const addBlog:RequestHandler = async (req,res) => {
 
     }
     try{
-        const blog = new Blog({title:""});
+        const blog = new blogModel({title:""});
         const saveBlog = await blog.save();
         res.status(201).json({
             message:"created Successfully",
