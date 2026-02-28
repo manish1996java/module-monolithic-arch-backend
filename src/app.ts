@@ -1,8 +1,10 @@
 import express, { Express, Request, Response } from "express";
 import routes from "./routing/index";
 import { startServer } from "./server/startServer";
-import { setupInitialMiddlewares } from "./middlerware/setupInitial.middleware";
-import { connectDB } from "@config/db";
+import { setupInitialMiddlewares } from "@core/middleware/setupInitial.middleware";
+import { connectDB } from "@core/config/db";
+
+
 
 const app: Express = express();
 
